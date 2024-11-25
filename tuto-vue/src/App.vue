@@ -3,7 +3,7 @@
   <h2>Mon compte est à : {{ count }}</h2>
   <p>Je fais du vue.js</p>
   <div v-show="count>=5">Bravo vous avez cliqué plus de 5 fois</div>
-  <button @click="increment">Increment</button>
+  <button @click="increment">Increment</button><br><br>
   <button @click="decrement">Decrement</button>
 </template>
 
